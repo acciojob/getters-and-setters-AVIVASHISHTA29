@@ -1,19 +1,18 @@
 //complete this code
 class Person {
 	constructor(name,age){
-		this.PersonName = name;
-		this.PersonAge = age;
+		this._name = name;
+		this._age = age;
 	}
 	get name(){
-		return this.PersonName;
+		return this._name;
 	}
 
 	/**
    * @param {any} age
    */
-
 	set age(age){
-		this.PersonAge = age;
+		this._age = age;
 	}
 }
 
