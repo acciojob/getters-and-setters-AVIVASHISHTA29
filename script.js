@@ -8,6 +8,10 @@ class Person {
 		return this.PersonName;
 	}
 
+	/**
+   * @param {any} age
+   */
+
 	set age(age){
 		this.PersonAge = age;
 	}
